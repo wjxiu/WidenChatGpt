@@ -1,0 +1,12 @@
+@-moz-document domain("chat.openai.com") {
+    /* change the input area*/
+    .xl\:max-w-3xl {
+        max-width: 90% !important;
+    }
+    /* change the message area*/
+    .text-base {
+        max-width: 100% !important;
+        padding-left: 20px !important;
+        padding-right: 20px !important;
+    }
+}
