@@ -1,0 +1,32 @@
+@-moz-document domain("chat.openai.com") {
+    /* change the input area*/
+    .xl\:max-w-3xl {
+        max-width: 100% !important;
+    }
+    /* change the input area font size*
+    textarea{
+        font-size: 20px;
+    }
+    /* change the message area*/
+    .text-base {
+        max-width: 100% !important;
+        padding-left: 10px !important;
+        padding-right: 0px !important;
+    }
+/*    gpt message area  */
+    div[data-message-author-role="assistant"] > * {
+        font-size: 20px;
+    }
+/*    your message area  */
+    .flex-col{
+         font-size: 20px;
+    }
+    /*    remove the avatar  */
+    .items-end.relative.flex-col.flex.flex-shrink-0 {
+        display: none;
+    }
+/*    Set the text area width to match the screen width    */
+    .relative.flex.w-full.flex-col {
+        width: 100%;
+    }
+}
