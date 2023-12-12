@@ -5,6 +5,13 @@ include message and input area
 1. find and install  chrome extension call  *Stylus* in *chrome web store*
 
 2. visit https://userstyles.world/style/13334/widen-chatgpt-message and click the install button
+
+   | version    | file name  | describe                                                     |
+   | ---------- | ---------- | ------------------------------------------------------------ |
+   | normal     | normal.css | only widen the text area and input area                      |
+   | large text | large.css  | widen the text area and input area ,set the  font size of text to larger than the normal version |
+
+   
 # what is look like?
 
 ## before
